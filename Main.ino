@@ -90,7 +90,7 @@ if(digital==0)
 }
 void SendMessage()
 {
-  mySerial.println("AT+CMGS=\"+919600145808\"\r"); // Replace x with mobile number
+  mySerial.println("AT+CMGS=\"+91xxxxxxxxxx\"\r"); // Replace xxxxxxxxxx with mobile number
   delay(1000);
   mySerial.println("GAS LEAK DETECTED!EMERGENCY");// The SMS text you want to send
   delay(100);
